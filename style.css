@@ -1,0 +1,49 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* La barre du menu */
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #ff0000;
+    padding-top: 20px;
+}
+
+/* Les liens dans la barre du menu */
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 1.8em;
+    color: white;
+    display: block;
+    text-shadow: 2px 2px 4px black;
+}
+
+.sidenav a:hover {
+    color: grey;
+}
+
+/*  Tableau */
+tr {
+    line-height: 18px;
+}
+
+thead {
+    border-bottom: 3px solid red;
+    color: darkblue;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+tbody {
+    font-size: 1.3em;
+}
